@@ -18,11 +18,10 @@ li{
 
 
 
-#header,#banner-section,#structure-section {
+#header,#banner-section,#structure-section,#solution,#think {
     width:80%;
     max-width: 1000px;
     margin: 0 auto;
-    text-align: center;
 }
 .navbar{
     display: flex;
@@ -87,6 +86,9 @@ li{
 
 }
 
+#structure-section{
+   text-align: center;;
+}
 .structure-card{
     padding-top: 120px;
     
@@ -136,6 +138,40 @@ li{
     font-size: 16px;
     color: #627382;
 
+}
+.solution-section{
+    display: flex;
+    padding: 120px 0;
+    justify-content: space-between;
+}
+.img-content{
+    width: 450px;
+}
+.img-content img{
+    width: 100%;
+}
+.solution-content{
+    width: 500px;
+    padding: 30px 15px;
+
+}
+.solution-content h1{
+    font-size: 48px;
+    text-transform: capitalize;
+}   
+.solution-content p{
+    color: #627382;
+    font-size: 16px;
+    padding: 16px 0;
+}   
+.solution-content ul{
+    padding-top: 20px;
+}
+.solution-content ul li{
+    font-size: 16px;
+    padding-bottom: 12px;
+    list-style: square;
+    margin-left: 20px;
 }
 
 
