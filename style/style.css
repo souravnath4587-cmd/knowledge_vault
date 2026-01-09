@@ -175,6 +175,21 @@ li{
 }
 
 
+.think-section{
+    background-color: #F7F6F2;
+    text-align: center;
+    padding: 80px 40px;
+    margin-bottom: 120px;
+}
+.think-section h1{
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.think-section p{
+    font-size: 16px;
+    color: #627382;
+    padding : 20px 0;
+}   
 
 
 
