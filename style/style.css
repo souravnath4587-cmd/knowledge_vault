@@ -43,6 +43,11 @@ li{
     border: none;
     cursor: pointer;
 }
+.green_button:hover{
+    background-color: #090b0a;
+    transition: 0.3s;
+}
+
 .green_button img{
     vertical-align: middle;;
 }
