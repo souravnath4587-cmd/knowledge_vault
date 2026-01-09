@@ -18,10 +18,11 @@ li{
 
 
 
-#header,#banner-section {
+#header,#banner-section,#structure-section {
     width:80%;
     max-width: 1000px;
     margin: 0 auto;
+    text-align: center;
 }
 .navbar{
     display: flex;
@@ -86,9 +87,56 @@ li{
 
 }
 
+.structure-card{
+    padding-top: 120px;
+    
+}
 
+.structure-card h1{
+    font-size: 48px;
+    text-transform: capitalize;
+    
+}
+.structure-card p{
+    color: #627382;
+    font-size: 18px;
+    padding: 16px 0;
+}
+.structure-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 44px;
+}
+.card-icon{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    margin: 0 auto;
 
+}
 
+.card-icon img{
+    padding: 15px;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.card-info h4{
+    padding: 16px 0;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+.card-info p{
+    font-size: 16px;
+    color: #627382;
+
+}
 
 
 
