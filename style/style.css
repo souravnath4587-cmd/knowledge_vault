@@ -18,7 +18,7 @@ li{
 
 
 
-#header,#banner-section,#structure-section,#solution,#think {
+#header,#banner-section,#structure-section,#solution,#think,#footer-section {
     width:80%;
     max-width: 1000px;
     margin: 0 auto;
@@ -191,8 +191,36 @@ li{
     padding : 20px 0;
 }   
 
-
-
+#footer{
+    background-color: #19104d;
+}
+.footer-section{
+    
+    color: white;
+    text-align: center;
+    padding: 40px 0 ;
+}
+.footer-section h4{
+    font-weight: none;
+    margin-bottom: 10px;
+}   
+.social-link a{
+    color: white;
+    margin: 0 5px;
+    font-size: 20px;
+}
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.line-break{
+    border: 1px solid #30b868;
+    margin: 20px 0;
+}  
+.second-section{
+    color:#fafafa
+} 
 
 
 
